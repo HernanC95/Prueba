@@ -57,9 +57,7 @@ const Card: React.FC<ICardProps> = ({
     </View>
   );
 };
-
-export default Card;
-
+export default Card
 const styles = StyleSheet.create({
   mainContainer: {
     borderWidth: moderateScale(1),

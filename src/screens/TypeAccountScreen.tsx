@@ -25,7 +25,7 @@ const TypeAccountScreen = ({ navigation }: any) => {
       </View>
       <View style={styles.cardsButton}>
         <View style={styles.cards}>
-          <Card
+          {/* <Card
             title="Personal"
             subTitle="Individual"
             icon={<Profile />}
@@ -38,7 +38,7 @@ const TypeAccountScreen = ({ navigation }: any) => {
             icon={<Company />}
             rounded="md"
             direction="row"
-          />
+          /> */}
         </View>
 
         <View>

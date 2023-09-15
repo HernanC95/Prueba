@@ -20,7 +20,7 @@ const SuccessScreen = ({ navigation }: any) => {
     >
       <View style={styles.container}>
         <View style={{ alignItems: "center", gap: moderateScale(28) }}>
-          <Succes />
+          {/* <Succes /> */}
           <Text style={styles.title}>Tu línea crediticia es de: </Text>
         </View>
         <Text style={styles.text}>$100.000 a $230.000</Text>

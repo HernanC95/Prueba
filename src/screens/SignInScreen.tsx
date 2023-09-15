@@ -35,8 +35,8 @@ const SignInScreen = ({ navigation }: any) => {
         </Text>
       </View>
       <View style={styles.inputsContainer}>
-        <Input label="Email" rounded="md" size="md" />
-        <Input label="Contraseña" rounded="md" size="md" />
+        {/* <Input label="Email" rounded="md" size="md" />
+        <Input label="Contraseña" rounded="md" size="md" /> */}
       </View>
       <View style={styles.loginContainer}>
         <Text>¿Olvidaste tu contraseña?</Text>
@@ -49,8 +49,8 @@ const SignInScreen = ({ navigation }: any) => {
       </View>
       <Text style={{ textAlign: "center", color: Colors.grey }}>o</Text>
       <View style={styles.buttonsContainer}>
-        <Button title="Google" icon={<GoogleLogo />} border="sm" rounded="md" />
-        <Button title="Facebook" icon={<FbLogo />} border="sm" rounded="md" />
+        {/* <Button title="Google" icon={<GoogleLogo />} border="sm" rounded="md" />
+        <Button title="Facebook" icon={<FbLogo />} border="sm" rounded="md" /> */}
       </View>
       <View style={styles.footerContainer}>
         <Text style={styles.footerText}>

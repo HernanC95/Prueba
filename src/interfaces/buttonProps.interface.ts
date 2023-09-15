@@ -1,11 +1,11 @@
 export interface IButtonProps {
-  border?: "sm" | "md" | "lg" | "xl";
-  borderColor?: "primary" | "secondary";
-  color?: "primary" | "secondary";
-  rounded?: "sm" | "md" | "lg" | "full";
+  border?: string;
+  borderColor?: string;
+  color?: string;
+  rounded?: string;
   title?: string;
-  titleColor?: "primary" | "secondary";
-  size?: "xs" | "sm" | "md" | "lg" | "xl";
+  titleColor?: string;
+  size?: string;
   onPress?: () => void;
   icon?: any;
 }

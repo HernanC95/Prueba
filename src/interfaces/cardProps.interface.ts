@@ -2,6 +2,6 @@ export interface ICardProps {
   title: string;
   subTitle?: string;
   icon?: any;
-  rounded?: "sm" | "md" | "lg" | "full";
+  rounded?: string;
   direction: "row" | "column";
 }

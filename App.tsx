@@ -11,11 +11,10 @@ import SignInScreen from "./src/screens/SignInScreen";
 import HomeScreen from "./src/screens/HomeScreen";
 import NewCreditScreen from "./src/screens/NewCreditScreen";
 import CalculateScreen from "./src/screens/CalculateScreen";
-
 const Stack = createNativeStackNavigator();
 
 const App = () => {
-  return (
+    return (
     <SafeAreaProvider>
       <NavigationContainer>
         <Stack.Navigator

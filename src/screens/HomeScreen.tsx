@@ -31,7 +31,7 @@ const HomeScreen = ({ navigation }: any) => {
         </Text>
       </View>
       <View style={styles.cardContainer}>
-        <Card
+        {/* <Card
           title="Nuevo crédito"
           rounded="md"
           icon={<CreditCard />}
@@ -43,7 +43,7 @@ const HomeScreen = ({ navigation }: any) => {
           subTitle="$4.000"
           rounded="md"
           direction="column"
-        />
+        /> */}
       </View>
       <View style={styles.buttonContainer}>
         <Button

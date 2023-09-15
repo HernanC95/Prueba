@@ -25,4 +25,4 @@ const getBorderRadius = (borderRadius: string | undefined) => {
   }
 };
 
-export { horizontalScale, verticalScale, moderateScale, getBorderRadius };
+export { horizontalScale, verticalScale, moderateScale, getBorderRadius};
